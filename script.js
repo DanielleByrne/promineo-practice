@@ -45,3 +45,13 @@
 
 //flattening: taking nested if statements and combining them using &&, but 
 //not if the second statement is going to determine a different path
+
+// LOOPS
+// while loop, for loop, do while loop
+
+//USER INPUT
+// using window.prompt
+
+// const firstName = window.prompt("what is your name?")
+
+// window.alert("hello " + firstName)
