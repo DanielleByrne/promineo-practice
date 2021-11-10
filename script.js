@@ -292,3 +292,31 @@
 //     console.log(names[i])
 // }
 
+//FUNCTIONS
+//modularized code,  reusable 
+//function keyword, the name of the function, parenthesis, curly braces
+
+// function printZero(){
+//     for(let i =0; i<101; i++){
+//         console.log(i)
+//     }
+// }
+// // have to declare the function
+
+// printZero()
+
+//  parameters allow you to add input into the function
+// have functions only responsible for one thing, separation of concerns
+
+// parameters are like parking spots and arguments are like cars, they go into parking spots
+
+// function createFullName(firstName, lastName){
+//     console.log(firstName+ " " + lastName)
+// }
+
+// createFullName("Tom", "Sawyer");
+
+// Return Statements
+//ends the function and returns what follows so it can be used 
+// like a vending machine, you put money in and get back something
+
