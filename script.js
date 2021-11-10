@@ -162,3 +162,133 @@
 // } else if (myNumber < num1) {
 //   console.log(num1 + " is larger than my number, " + myNumber);
 // }
+
+// for (let i = 0; i < 101; i++) {
+//   if (i % 3 === 0) {
+//     console.log(i + " foo");
+//   }
+// }
+
+// var game = 0;
+
+// for (let i = 0; i < 101; i++) {
+//   if (game == 291) {
+//     break;
+//   }
+//   if (i % 2 === 0) {
+//     game += 5;
+//   } else {
+//     game += 3;
+//   }
+//   if (game === 125) {
+//     game = 25;
+//   }
+
+//   console.log(i, game);
+// }
+
+// var requiredCupsOfRice = 10;
+// var currentCupsOfRice = 0;
+
+// //write your code here
+
+// while (currentCupsOfRice < requiredCupsOfRice) {
+//   currentCupsOfRice += 1;
+//   console.log("The bowl contains " + currentCupsOfRice + " cups of rice.");
+// }
+// console.log("We have enough rice!");
+
+// for (var i = 0; i < x ; i++){
+//     "code to be run"
+// }
+
+// x= 10
+// for( var i = 0; i < x; i++){
+//     console.log(i)
+// }
+
+// num = 2;
+
+// for (var i = 0; i < 11; i++) {
+//   console.log(num + " x " + i + " = " + num * i);
+// }
+
+// let countDown = 5
+
+// while(countDown >0){
+//     if (countDown > 10){
+//         break;
+//     }
+//     console.log(countDown + "...")
+//     countDown--
+// }
+// console.log("We have lift off!")
+
+// let userNumber = 89;
+
+// if (userNumber >= 1 && userNumber <= 100) {
+//   while (userNumber <= 100) {
+//     console.log(userNumber);
+//     userNumber++;
+//   }
+// } else {
+//   console.log("Your number was not between 1 and 100.");
+// }
+
+// userNumber = 70
+
+// do{
+//     console.log(userNumber)
+//     userNumber +=6
+// } while (userNumber <= 100)
+
+// for (var i = 0; i < 101; i++) {
+//   if (i % 2 != 0) {
+//     console.log(i);
+//   }
+// }
+
+// for (var i =0; i< 10; i++){
+//     console.log(i)
+// }
+
+// for (var i = 0; i < 10; i--) {
+
+//     console.log(i);
+  
+//   }
+
+// var letterGrade;
+// var numericGrade = 10;
+
+// if(numericGrade>= 90){
+//     letterGrade = "A"
+// } else if(numericGrade >=80){
+//     letterGrade= "B"
+// }else if(numericGrade >=70){
+//     letterGrade= "C"
+// }else if(numericGrade >=60){
+//     letterGrade= "D"
+// } else {
+//     letterGrade = "F"
+// }
+// console.log(letterGrade)
+
+// ############################################# WEEK 3 ##############################################
+// ARRAYS
+// always start at 0, use [] to mark an array
+
+// let names = []
+
+// names.push("Danielle", "Brandon")
+// console.log(names)
+
+// names.push("Leslie", "Lyra")
+// console.log(names)
+
+// console.log(names[1])
+
+// for( let i=0; i <names.length; i++){
+//     console.log(names[i])
+// }
+
