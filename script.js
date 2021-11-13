@@ -255,7 +255,7 @@
 // for (var i = 0; i < 10; i--) {
 
 //     console.log(i);
-  
+
 //   }
 
 // var letterGrade;
@@ -293,7 +293,7 @@
 // }
 
 //FUNCTIONS
-//modularized code,  reusable 
+//modularized code,  reusable
 //function keyword, the name of the function, parenthesis, curly braces
 
 // function printZero(){
@@ -317,6 +317,147 @@
 // createFullName("Tom", "Sawyer");
 
 // Return Statements
-//ends the function and returns what follows so it can be used 
+//ends the function and returns what follows so it can be used
 // like a vending machine, you put money in and get back something
 
+// INTERMEDIATE ARRAY METHODS
+// . map()- invokes a function on each element of the array and returns a new array with the result
+
+//   let names = ["Brandon", "Danielle", "Helen", "Leslie"]
+
+//   let lengths = names.map(function(element){
+//       return element.length;
+//   })
+
+//   console.log(lengths)
+
+//     // .reduce() -  takes all the value and reduces them down to one value, good for performing averages, returning objects, sum, ect
+
+//     let sum = lengths.reduce(function(accumulator, currentValue){
+//         // param 1 accumulates whatever was returned by the previous return
+//         // param 2 is the current value
+//         return accumulator + currentValue
+
+//     })
+//     console.log(sum)
+
+//#################### WEEK 3 CLASS ###################################
+// arrays
+// let groceries = ["oat milk", "avocados", "eggs", "bread"];
+
+// let arrayLength = groceries.length;
+// // console.log(groceries[2]);
+// // console.log(arrayLength);
+
+// //loops
+// for (let i = 0; i < groceries.length; i++) {
+//   let displayNumber = i + 1;
+//   console.log(displayNumber + ". " + groceries[i]);
+// }
+
+// groceries.push("coffee");
+// console.log(groceries);
+
+// check array for oranges, if no oranges add them, if oranges log " oranges present"
+
+// for (let i = 0; i < groceries.length; i++) {
+//   if (groceries[i] == "oranges") {
+//     console.log("oranges are on the list already");
+//   } else {
+//     groceries.push("oranges");
+//   }
+// }
+
+// console.log(groceries)
+
+// console.log(groceries)
+// let haveOranges = false
+
+// for(let listItem of groceries){
+//     if(listItem == "oranges"){
+//         console.log("oranges are on the list")
+//         haveOranges = true
+//     }
+// }
+
+// if(haveOranges == false){
+//     groceries.push("oranges")
+// }
+
+// console.log(groceries)
+
+//functions
+
+// function greeting(name){
+//     console.log("hello "+ name)
+// }
+
+// greeting("danielle")
+
+// create a function that takes in two numbers and returns the sum
+
+// function addTogether(num1, num2) {
+//   let num3 = num1 + num2;
+//   return num3 / 2;
+// }
+// // when you return, the function call is replaced by the returned value
+// console.log(addTogether(4, 4));
+
+// find the sum of an array
+
+// function sumOfArray(arrayOfNumbers) {
+//   let sum = 0;
+//   for (let i = 0; i < arrayOfNumbers.length; i++) {
+//     sum += arrayOfNumbers[i];
+//   }
+//   return sum;
+// }
+// let numbers = [1,4,6,23,4,67,23];
+
+// console.log(sumOfArray(numbers))
+
+// console.log("hello".repeat(3))
+
+// console.log("cheese".length)
+
+// let dsfdf = [2, 5, 6, 7, 78 ]
+
+// console.log(dsfdf[4])
+
+// let groceryItems = ["apples", "cheese", "bread", "coffee"]
+
+// for(let i=0; i <groceryItems.length; i++){
+//     console.log(groceryItems[i])
+// }
+
+// function toThePower(base, exponent) {
+//   return base ** exponent;
+// }
+
+// console.log(toThePower(6, 2));
+
+// let customer = {
+//   name: "Tom",
+
+//   email: "Tom@promineotech.com",
+
+//   phone: "602-123-0011",
+
+//   // Insert your code below this line
+
+//   printCustomerInformation: function(){
+//       console.log("Name:" + this.name + ", Email:" + this.email + ", Phone:" + this.phone)
+//   },
+
+//   // Insert your code above this line
+// };
+
+// customer.printCustomerInformation()
+//  let randomWords = ["blue", "pineapple", "bulgogi", "tree"]
+
+
+// function findWord(arrayOfStrings, string){
+//     return arrayOfStrings.indexOf(string)
+// }
+
+// console.log(findWord( randomWords, "bulgogi"))
