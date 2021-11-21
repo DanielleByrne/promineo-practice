@@ -455,7 +455,6 @@
 // customer.printCustomerInformation()
 //  let randomWords = ["blue", "pineapple", "bulgogi", "tree"]
 
-
 // function findWord(arrayOfStrings, string){
 //     return arrayOfStrings.indexOf(string)
 // }
@@ -464,7 +463,7 @@
 
 // ############################################################################### WEEK 4 CLASS ##########################################################################################################
 
-// Callbacks and promises are good for asynchronous things 
+// Callbacks and promises are good for asynchronous things
 // console.log("i")
 
 // setTimeout(() => {
@@ -474,30 +473,138 @@
 // console.log("vegetables")
 
 let stock = {
-    fruit: ["blue berry", "apple", "bananas"],
-    holder: ["cup", "waffle cone", "sugar cone"],
-    toppings: ["fudge", "nuts", "caramel"]
-}
+  fruit: ["blue berry", "apple", "bananas"],
+  holder: ["cup", "waffle cone", "sugar cone"],
+  toppings: ["fudge", "nuts", "caramel"],
+};
 
 //customer order
-// fetch ingredients 
+// fetch ingredients
 // start production
 // serve ice cream
 
-
-// callbacks 
+// callbacks
 // const order = (call_production) => {
 //     console.log("order being processed, please call production")
 //     call_production();
 // }
 
-
-
 // const production = () => {
 //     console.log("production started")
-    
+
 // }
 
 // order(production)
 
-// promises 
+// promises
+
+//#################################### WEEK 4 OPEN CLASS ##############################################
+
+// function addTwoInputs(a, b) {
+//   return a + b;
+// }
+
+// const addTwoInputs = (a, b) => {
+//   return a + b;
+// };
+
+// const xor = (num1, num2) => {
+//   return num1 ^ num2;
+// };
+
+// let myFunction = {num1 = 45} => return num1;
+
+// function myFunction(num) {
+//   return Math.sqrt(num);
+// }
+
+// let returnSquareRoot = (num) => { Math.sqrt(num);};
+
+// let pythaoras = (num1, num2) => {
+//   return Math.sqrt((num1 + num2) + (num2 * num2));
+// };
+
+// ######### quiz #########
+
+// const createFullName = (firstName, lastName) => {
+//   return firstName + " " + lastName;
+// };
+
+// function doubleNumber(number) {
+//   return number * 2;
+// }
+
+// const doubleNumber = (number) => number * 2;
+
+// function getEvenNumbers(array) {
+//     let evenNumbers = [];
+//     for (let i of array) {
+//       if (i % 2 === 0) {
+//         evenNumbers.push(i);
+//       }
+//     }
+//     return evenNumbers;
+//   }
+
+// const getEvenNumbers = (array) => {
+//   let evenNumbers = [];
+//   for (let i of array) {
+//     if (i % 2 === 0) {
+//       evenNumbers.push(i);
+//     }
+//   }
+//   return evenNumbers;
+// };
+
+// name starts with a 'C' (upper or lowercase)
+// address contains no undefined fields
+// the city is Peoria and the state is AZ
+// // membership level is GOLD or PLATINUM unless the customer is younger than 29, then SILVER is okay too
+// const customers = [
+//   {
+//     name: "Cam",
+//     address: {
+//       street: "1234 W Bell Rd",
+//       city: "Peoria",
+//       zip: "85308",
+//       state: "AZ",
+//     },
+//     membershipLevel: "GOLD",
+//     age: 32,
+//   },
+//   //more customers with the same schema
+// ];
+
+// // console.log(customers[0].name)
+
+// const customerPattern = (array) => {
+//   let newArray = [];
+//   for (let i = 0; i < array.length; i++) {
+//     //// name starts with a 'C' (upper or lowercase)
+//     if (array[i].name[0] == "c" || array[i].name[0] == "C") {
+//       newArray.push(array[i]);
+//       //// address contains no undefined fields
+//     } else if (array[i].address != undefined) {
+//       newArray.push(array[i]);
+//       //// the city is Peoria and the state is AZ
+//     } else if (array[i].city == "Peoria" && array[i].state == "AZ") {
+//       newArray.push(array[i]);
+//       //// membership level is GOLD or PLATINUM unless the customer is younger than 29, then SILVER is okay too
+//     } else if (
+//       array[i].membershipLevel == "GOLD" ||
+//       array[i].membershipLevel == "PLATINUM" ||
+//       (array[i].membershipLevel == "SILVER" && array[i].age < 29)
+//     ) {
+//       newArray.push(array[i]);
+//     } else if (
+//       array[i].membershipLevel == "GOLD" ||
+//       (array[i].membershipLevel == "PLATINUM" && array[i].age > 29)
+//     ) {
+//       array;
+//     }
+//   }
+//   console.log(newArray);
+// };
+
+// customerPattern(customers);
+
