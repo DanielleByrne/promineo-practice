@@ -461,3 +461,43 @@
 // }
 
 // console.log(findWord( randomWords, "bulgogi"))
+
+// ############################################################################### WEEK 4 CLASS ##########################################################################################################
+
+// Callbacks and promises are good for asynchronous things 
+// console.log("i")
+
+// setTimeout(() => {
+//     console.log("eat")
+// },2000)
+
+// console.log("vegetables")
+
+let stock = {
+    fruit: ["blue berry", "apple", "bananas"],
+    holder: ["cup", "waffle cone", "sugar cone"],
+    toppings: ["fudge", "nuts", "caramel"]
+}
+
+//customer order
+// fetch ingredients 
+// start production
+// serve ice cream
+
+
+// callbacks 
+// const order = (call_production) => {
+//     console.log("order being processed, please call production")
+//     call_production();
+// }
+
+
+
+// const production = () => {
+//     console.log("production started")
+    
+// }
+
+// order(production)
+
+// promises 
