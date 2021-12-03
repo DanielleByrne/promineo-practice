@@ -472,11 +472,11 @@
 
 // console.log("vegetables")
 
-let stock = {
-  fruit: ["blue berry", "apple", "bananas"],
-  holder: ["cup", "waffle cone", "sugar cone"],
-  toppings: ["fudge", "nuts", "caramel"],
-};
+// let stock = {
+//   fruit: ["blue berry", "apple", "bananas"],
+//   holder: ["cup", "waffle cone", "sugar cone"],
+//   toppings: ["fudge", "nuts", "caramel"],
+// };
 
 //customer order
 // fetch ingredients
@@ -608,3 +608,32 @@ let stock = {
 
 // customerPattern(customers);
 
+//################################################### WEEK 5 OBJECT ORIENTED PROGRAMMING CLASS-TIME ######################################################################
+
+// OOP - organizing code, an object is a specific chunk of data, an instance of a class. An individual person is an instance of a human,
+/// technically object templates- generally works the same as other languages but a little different
+
+// CLASSES
+// object templates
+// constructor - defined once, function, sets up the object properties. allows us to create different instances of an object. like a machine that makes shoes if you give it the right materials
+class Vehicle {
+  constructor(make, model, year) {
+    // function creates instances of object class, takes properties of object as parameters
+    this.make = make;
+    this.model = model;
+    this.year = year;
+  }
+run(){
+  console.log(`the ${this.make} ${this.model} is running`)
+} 
+
+}
+
+let car = new Vehicle("Jeep", "Wrangler", 2021) // writing new and Vehicle() calls on the constructor 
+console.log(car.make, car.model, car.year)
+car.run();
+
+
+// INHERITANCE
+
+// EXCEPTION HANDLING
