@@ -498,7 +498,7 @@
 
 // promises
 
-//#################################### WEEK 4 OPEN CLASS ##############################################
+//############################################## WEEK 4 OPEN CLASS #######################################################
 
 // function addTwoInputs(a, b) {
 //   return a + b;
@@ -610,30 +610,117 @@
 
 //################################################### WEEK 5 OBJECT ORIENTED PROGRAMMING CLASS-TIME ######################################################################
 
-// OOP - organizing code, an object is a specific chunk of data, an instance of a class. An individual person is an instance of a human,
-/// technically object templates- generally works the same as other languages but a little different
+// // OOP - organizing code, an object is a specific chunk of data, an instance of a class. An individual person is an instance of a human,
+// /// technically object templates- generally works the same as other languages but a little different
+// //
+// //
 
-// CLASSES
-// object templates
-// constructor - defined once, function, sets up the object properties. allows us to create different instances of an object. like a machine that makes shoes if you give it the right materials
-class Vehicle {
-  constructor(make, model, year) {
-    // function creates instances of object class, takes properties of object as parameters
-    this.make = make;
-    this.model = model;
-    this.year = year;
-  }
-run(){
-  console.log(`the ${this.make} ${this.model} is running`)
-} 
+// // CLASSES
+// // object templates
+// // constructor - defined once, function, sets up the object properties. allows us to create different instances of an object. like a machine that makes shoes if you give it the right materials
+// class Vehicle {
+//   constructor(make, model, year) {
+//     // function allows us to create instances of object class, takes properties of object as parameters
+//     this.make = make;
+//     this.model = model;
+//     this.year = year;
+//   }
+//   run() {
+//     console.log(`the ${this.make} ${this.model} is running`);
+//   }
+// }
 
-}
+// let car = new Vehicle("Jeep", "Wrangler", 2021); // writing new and Vehicle() calls on the constructor
+// console.log(car.make, car.model, car.year);
+// car.run();
 
-let car = new Vehicle("Jeep", "Wrangler", 2021) // writing new and Vehicle() calls on the constructor 
-console.log(car.make, car.model, car.year)
-car.run();
+// class Post {
+//   constructor(font, text, author, date, image, tags) {
+//     this.font = font;
+//     this.text = text;
+//     this.author = author;
+//     this.date = date;
+//     this.image = image;
+//     this.tags = tags;
+//   }
+//   edit(newerText) {
+//     this.text = newerText;
+//     console.log(this.text);
+//   }
+// }
 
+// let firstPost = new Post(
+//   "arial",
+//   "Hello world",
+//   "Danielle",
+//   "12/2/20201",
+//   "fakeurlhere",
+//   ["code", "firstpost", "first"]
+// );
+// console.log(firstPost.text);
 
-// INHERITANCE
+// firstPost.edit("javascript is fun");
+// console.log(firstPost.text);
+// //
+// //
+// //
+// // INHERITANCE
+// class Person {
+//   constructor(firstName, lastName) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//   }
+//   greeting() {
+//     console.log(`Hi my name is ${this.firstName} ${this.lastName}`);
+//   }
+// }
 
-// EXCEPTION HANDLING
+// class Student extends Person {
+//   // student is the child class and person is the parent class
+//   constructor(firstName, lastName, studentId, program) {
+//     super(firstName, lastName); // calls on person constructor instead of redefining them
+//     this.studentId = studentId;
+//     this.program = program;
+//   }
+
+//   enroll() {
+//     console.log(`You are enrolled in ${this.program}`);
+//   }
+// }
+
+// let backendStudent = new Student(
+//   "Michelle",
+//   "Bates",
+//   346723,
+//   "Back End Engineering"
+// );
+// backendStudent.enroll();
+// backendStudent.greeting();
+
+// // inheritance only works in one direction
+
+// class Instructor extends Person {
+//   constructor(firstName, lastName, coursesTaught) {
+//     super(firstName, lastName);
+//     this.coursesTaught = coursesTaught;
+//   }
+//   showCoursesTaught() {
+//     for (let i = 0; i < this.coursesTaught.length; i++) {
+//       console.log(`${i + 1}. ${this.coursesTaught[i]}`);
+//     }
+//   }
+// }
+
+// let teacher = new Instructor("Danielle", "Byrne", [
+//   "Psych 101",
+//   "English",
+//   "Front End",
+// ]);
+// teacher.showCoursesTaught();
+// teacher.greeting();
+// //
+// //
+// //
+// // EXCEPTION HANDLING
+// // try catch - error handling, try is what you want to execute, catch is what to do if it doesn't work 
+// // finally - code that will run no matter what, maybe it redirects the page or something, not required - only in situations where you want something to happen no matter what  
