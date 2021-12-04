@@ -722,5 +722,31 @@
 // //
 // //
 // // EXCEPTION HANDLING
-// // try catch - error handling, try is what you want to execute, catch is what to do if it doesn't work 
-// // finally - code that will run no matter what, maybe it redirects the page or something, not required - only in situations where you want something to happen no matter what  
+// // try catch - error handling, try is what you want to execute, catch is what to do if it doesn't work
+// // finally - code that will run no matter what, maybe it redirects the page or something, not required - only in situations where you want something to happen no matter what
+// ############################################################ WEEK 5 VIDEOS ################################################################
+// CLASSES
+
+// class Student {
+//   constructor(firstName, lastName, phoneNumber, grade) {
+//     this.firstName = firstName; // assign the value that comes from the argument, this is a way to refer to the property of the object we're making with the class
+//     this.lastName = lastName;
+//     this.phoneNumber = phoneNumber;
+//     this.grade = grade;
+//   }
+
+//   introduce() {
+//     // don't need function keyword, it's a method - function that belongs to the class
+//     console.log(
+//       `${this.firstName} ${this.lastName} can be reached at ${this.phoneNumber}`
+//     );
+//   }
+// }
+
+
+// let student1 = new Student("Tim", "Long", "123445567", "C")
+// let student2 = new Student("Sarah", "White", "093849203", "B-")
+
+// student1.introduce()
+// student2.introduce()
+
