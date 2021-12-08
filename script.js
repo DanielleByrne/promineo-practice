@@ -743,10 +743,49 @@
 //   }
 // }
 
-
 // let student1 = new Student("Tim", "Long", "123445567", "C")
 // let student2 = new Student("Sarah", "White", "093849203", "B-")
 
 // student1.introduce()
 // student2.introduce()
 
+// ########################################################## QUIZ CODE ###############################################
+
+// class Event {
+//   constructor(title, date) {
+//     this.title = title; //string
+//     this.date = date; //string
+//   }
+// }
+
+// class EventOrganizer {
+//   constructor(events) {
+//     this.events = events;
+//   }
+//   addEvent(event) {
+//     if (!this.events.includes(event)) {
+//       this.events.push(event);
+//       console.log(this.events);
+//     } else {
+//       console.log("This event already exists!");
+//     }
+//   }
+
+//   removeEvent(eventTitle) {
+//     if (this.events.includes(eventTitle)) {
+//       this.events = this.events.filter((e) => e !== eventTitle);
+//       console.log(this.events)
+//     }
+//   }
+// }
+
+
+// let newEvent = new EventOrganizer(["event1", "event2", "event3"])
+// //adding and deleting the event
+// newEvent.addEvent("event4")
+// newEvent.removeEvent("event4")
+
+
+
+// // testing adding duplicate event 
+// newEvent.addEvent("event4")
